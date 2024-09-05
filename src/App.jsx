@@ -34,7 +34,7 @@ function App() {
           console.error('Failed to copy password: ', err);
         });
     }
-  };
+  }
 
   useEffect(() => {
     generatePassword();
